@@ -71,6 +71,12 @@
       "relation": "oneToMany",
       "target": "api::todo.todo",
       "mappedBy": "user"
+    },
+    "orders": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::order.order",
+      "mappedBy": "user"
     }
   }
 }
